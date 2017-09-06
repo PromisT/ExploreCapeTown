@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.nyamundapt.explorecapetown.CapeInfo">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="fitXY"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ct"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textAllCaps="false"
+        android:text="Cape Town’s history and culture"/>
+
+    <TextView
+        android:id="@+id/heading1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textAllCaps="false"
+        android:text="Cape Town's history and culture are inextricably linked with that of South Africa. From the days of the Khoisan to the arrival of Jan van Riebeeck, from the dark days of apartheid to the democratic freedoms enjoyed today, Cape Town has been at the forefront of it all."/>
+
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cape Town has a fascinating history, and as a result the modern-day culture of those who live here is both vibrant and eclectic.
+
+A good place to start your exploration into Cape Town's past is with the city's oldest building at the Castle of Good Hope, built as a fortress by the first white settlers, the Dutch.
+
+Then head off and explore the Company's Gardens and cobbled Government Avenue. This avenue is lined with historic institutions such as De Tuynhuis, the Cape residence of the State President, and the South African Museum with its exhibits on the first known inhabitants of the Cape, the San and Khoikhoi.
+
+Cape Town's tale of slaves, many of whom originally came from Malaya, is told at the Bo-Kaap Museum, in the boldly painted and terraced Bo-Kaap quarter on the slopes of Signal Hill. The Afrikaans-speaking descendants of these slaves have been absorbed into the Coloured community, yet remain staunch Muslims and their neighbourhoods are dotted with the minarets of mosques. Another fascinating location is the District Six Museum on Buitenkant Street, which traces the forced removal of a vibrant mixed race community.
+
+Robben Island is one of Cape Town's biggest tourist attractions and is a major highlight on any trip to the Mother City. Many of South Africa's most famous freedom fighters were incarcerated here, including Nelson Mandela, who spent 18 years on the island. The island museum is situated about 11km off the coast of Cape Town and was declared a World Heritage Site on December 1 1997.
+
+Growing in popularity are tours to the townships on the Cape Flats, where a new urban culture is being forged. Tours provide a ‘behind the scenes' look at how communities live and work with visits to arts and crafts facilities and sustainable and environmental development projects."/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

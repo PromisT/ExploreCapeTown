@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.nyamundapt.explorecapetown.EntrActivity">
+
+    <ImageView
+        android:id="@+id/imagee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:src="@drawable/atlanticseaboard" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/one"
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cape Town Lodge Hotel"
+                />
+
+            <!--<TextView-->
+            <!--android:id="@+id/two"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Address: 101 Buitengracht St, City Centre, Cape Town, 8001-->
+            <!--Phone: 021 422 0030"-->
+            <!--/>-->
+
+            <!--<TextView-->
+            <!--android:id="@+id/three"-->
+            <!--android:paddingTop="10dp"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Hotel details"-->
+            <!--android:textStyle="bold"-->
+            <!--android:textAllCaps="true"-->
+            <!--/>-->
+
+
+            <!--<TextView-->
+            <!--android:id="@+id/four"-->
+            <!--android:paddingTop="10dp"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Set 6 km from Table Mountain, this modern Downtown hotel is 4 km from the Victoria and Alfred Waterfront and 13 km from Kirstenbosch National Botanical Garden.-->
+            <!--The warmly decorated rooms provide Wi-Fi (fee), flat-screen TVs and minibars, as well as tea and coffeemaking facilities. The refined suites add living areas, while top-floor apartments with city views include kitchenettes, and living and dining areas. Room service is available.-->
+
+            <!--Amenities include a grill restaurant, a bar and a rooftop pool. There's also a fitness centre and underground parking."-->
+            <!--/>-->
+            <Button
+                android:id="@+id/next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="next"
+                android:onClick="next"
+                style="?attr/borderlessButtonStyle"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
+
+

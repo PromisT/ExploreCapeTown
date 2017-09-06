@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="accomodation" type="id" />
+    <item name="entertainment" type="id" />
+    <item name="restaurant" type="id" />
+    <item name="shopping" type="id" />
+    <item name="spa" type="id" />
+    <item name="events" type="id" />
+</resources>
